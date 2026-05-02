@@ -1,0 +1,109 @@
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#0a0a0a;
+  color:#fff;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 60px;
+  align-items:center;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:700;
+  background:linear-gradient(90deg,#ff6a00,#ff2e9f,#7b2cff);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+nav button{
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+  background:linear-gradient(90deg,#ff6a00,#ff2e9f);
+  color:#fff;
+  cursor:pointer;
+}
+
+/* HERO */
+.hero{
+  height:90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:64px;
+  margin:0;
+  background:linear-gradient(90deg,#ff6a00,#ff2e9f,#7b2cff);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+.hero p{
+  font-size:20px;
+  color:#ccc;
+}
+
+.hero button{
+  margin-top:30px;
+  padding:16px 40px;
+  border:none;
+  border-radius:30px;
+  background:linear-gradient(90deg,#ff6a00,#ff2e9f);
+  color:#fff;
+}
+
+/* SECTION */
+.section{
+  padding:80px 60px;
+}
+
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+.card{
+  background:#111;
+  padding:30px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+/* DEMO */
+.demo-box{
+  width:300px;
+  height:600px;
+  border-radius:40px;
+  border:2px solid #333;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* CTA */
+.cta{
+  text-align:center;
+  padding:100px 20px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  color:#666;
+}
